@@ -108,6 +108,7 @@ def _my_args():
                         action='store',
                         help='my Json data file')
     args = vars(parser.parse_args())
+    print('hello')
     return args
 
 args = _my_args()
