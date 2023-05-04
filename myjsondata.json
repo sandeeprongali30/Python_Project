@@ -1,0 +1,33 @@
+{
+  "userName": "Sofiya",
+  "userId": "123456789",
+  "userLocation": "Banglore",
+  "description": "Hello World! Its good to see you here.",
+  "serviceData": [
+   {
+     "components_list": [
+      {
+        "component1": "Python",
+        "component2": "Shell",
+        "component3": "J2",
+        "component4": "Json"
+      }
+     ],
+    "ipaddress": "192.100.300.8"
+   }
+  ],
+    "serviceData2": [
+   {
+     "data_all": [
+      {
+        "usernameinfo": "newUser",
+        "usersecretinfo": "newPassword",
+        "userAddress": "London",
+        "userMobile": "8923518390"
+      }
+     ],
+    "ipaddress": "192.100.20.1"
+   } 
+],
+  "closure": "Hello World! Its json end here."
+}

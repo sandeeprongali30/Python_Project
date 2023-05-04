@@ -1,0 +1,23 @@
+---
+myj2data:
+  userName: {{myjsondata['userName']}}
+  description: {{myjsondata['description']}}
+  global_components:
+    List_components:
+      component1: {{myjsondata['serviceData'][0]['components_list'][0]['component1']}}
+      component2: {{myjsondata['serviceData'][0]['components_list'][0]['component2']}}
+      component3: {{myjsondata['serviceData'][0]['components_list'][0]['component3']}}
+      component4: {{myjsondata['serviceData'][0]['components_list'][0]['component4']}}
+  mydata:
+    myip: {myjsondata['serviceData'][0]['ipaddress']}}
+    usernameinfo: vaultusernameinfo
+    usersecretinfo: vaultusersecretinfo
+    userAddress: vaultuserAddress
+    userMobile: vaultuserMobile
+    vaultuserMobile
+    internaluser:
+      internalip: {% if myjsondata['serviceData2'][0]['ipaddress'] is defined %}
+                  {{ {myjsondata['serviceData2'][0]['ipaddress']}}.rsplit('.',1)[0]|string + ".70" }}
+    }
+  closure: {{myjsondata['closure']}}
+    
